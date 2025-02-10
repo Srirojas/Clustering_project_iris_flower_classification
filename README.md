@@ -15,13 +15,13 @@ Target: Species
 Excluded Feature: Groove Length (not required for classification) 
 
 ## Approach & Methodology :
-1.Data Preprocessing
- - Imported necessary libraries: pandas, sklearn (MinMaxScaler, PCA, KMeans), matplotlib 
+1.Data Preprocessing :
+ - Imported necessary libraries: pandas, sklearn (MinMaxScaler, PCA, KMeans), matplotlib. 
  - Scaled the data for uniform feature distribution.
-2.Finding the Optimal K
+2.Finding the Optimal K :
  - Used Within-Cluster Sum of Squares (WCSS) to determine the best K value.
  - The Elbow Method identified K=3 as the ideal number of clusters.
-3.Applying K-Means Clustering
+3.Applying K-Means Clustering :
  - Fit the model to create 3 clusters.
  - Compared predicted vs actual species to evaluate performance.
 
